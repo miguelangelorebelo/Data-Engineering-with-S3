@@ -1,0 +1,4 @@
+SQLAlchemy==1.4.32
+pymysql==1.0.2
+#awscli==1.29.2
+boto3==1.28.1 

@@ -1,0 +1,3 @@
+00 */1 * * * echo "this is a cron triggered event" > /proc/1/fd/2
+00 * * * * cd /app && /user/local/bin/python3.10 etl_routine.py > /proc/1/fd/2 2> /proc/1/fd/2
+# I'm not sure if using a cronjob would be better... 
